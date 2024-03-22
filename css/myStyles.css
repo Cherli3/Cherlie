@@ -1,4 +1,4 @@
-/*CSS for my demonstration project*/
+/*CSS file*/
 body{
    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("../img/Background.png");
    height: 100%;
@@ -14,7 +14,7 @@ h1 {
 }
 
 .Custimg {
-   border-radius: 30px;
+   border-radius: 50px;
    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.336);
  }
 
@@ -23,6 +23,14 @@ h1 {
    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.336);
  }
 
+ .Custimg2 {
+   border-radius: 100%;
+   box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.336);
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
 nav{
    background-color: #b9b9b9 ;
    border-radius: 30px;
