@@ -16,11 +16,17 @@ h1 {
 .Custimg {
    border-radius: 50px;
    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.336);
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
  }
 
  .Custimg:hover {
    border-radius: 10px;
    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.336);
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
  }
 
  .Custimg2 {
@@ -70,10 +76,8 @@ section {
 }
 
 footer {
-   bottom: 15px;
    width: 1000px;
    clear: both;
-   position: fixed;
    background-color: #afafaf;
    color: white;
    text-align: center;
@@ -92,6 +96,14 @@ footer a {
 table {
   width: 100%;
 }
+
+.Center{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+}
+
 .image_right{
    float:right;
    margin-left: 10px;
