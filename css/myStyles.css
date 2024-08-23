@@ -7,11 +7,35 @@ body{
    width: 1000px;
    margin: auto;
 }
-
-h1 {
+h1, h3, h4, h5, h6 {
    padding-top: 16px; 
-   color: #ff7300 ;
+   color: #ff631b ;
    text-align: center;
+   font-family: "Titan One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-shadow: 0px 2px 5px #ff8c20;
+}
+
+p {
+   font-family: "Athiti", sans-serif;
+   font-weight: 600;
+}
+
+a {
+   color: #ff631b ;
+   font-family: "Athiti", sans-serif;
+   font-weight: 600;
+}
+
+h2 {
+   padding-top: 16px; 
+   color: #ffffff ;
+   text-align: center;
+   font-family: "Titan One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   text-shadow: 0px 2px 5px #000000;
 }
 
 .Custimg {
@@ -57,10 +81,12 @@ nav a {
    font-size: 1.2em;
    font-weight: bold;
    margin-right: 20px;
+   text-shadow: 0px 2px 5px #000000;
 }
 
 nav a:hover{
    color: rgb(255, 94, 0);
+   text-shadow: 0px 2px 5px #ff8c20;
 }
 section {
    float: left;
@@ -113,3 +139,20 @@ table {
    margin-bottom: 10px;
 }
 
+.box {
+   border: 5px solid rgb(255, 255, 255);
+   background-color: rgb(255, 255, 255);
+   width: 500px;
+   padding: 25px;
+   margin: 0 auto;
+   display: block;
+   border-radius: 30px;
+   box-shadow: 0 15px 20px 0 rgba(0,0,0,.336);
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
